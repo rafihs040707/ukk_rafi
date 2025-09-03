@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./vendor/bs/bs.min.css">
     <link rel="icon" href="image/logo.png">
     <link rel="stylesheet" href="./vendor/css/style.css">
-    
 </head>
 
 <body>
@@ -33,7 +32,7 @@
     </section> <!-- TUTUP SECTION TOP BAR -->
 
     <section> <!-- BUKA NAV -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-white border-1">
             <div class="container-fluid px-5">
                 <a class="navbar-brand" href="index.php"><img src="image/logo.png" class="logo"></a>
                 <a class="navbar-brand" href="index.php">

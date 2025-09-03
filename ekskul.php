@@ -3,6 +3,7 @@
 </head>
 
 <?php include "header.php" ?>
+
 <section> <!-- SECTION EKSKUL -->
     <div class="container-fluid">
         <div class="row">
