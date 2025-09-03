@@ -1,3 +1,7 @@
+<head>
+    <title>Profil - SMKN 4 Tasikmalaya</title>
+</head>
+
 <?php include "header.php" ?>
 
     <section> <!-- SECTION VIDEO -->

@@ -1,3 +1,7 @@
+<head>
+    <title>Ekstrakulikuler - SMKN 4 Tasikmalaya</title>
+</head>
+
 <?php include "header.php" ?>
 <section> <!-- SECTION EKSKUL -->
     <div class="container-fluid">

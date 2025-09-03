@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./vendor/bs/bs.min.css">
     <link rel="icon" href="image/logo.png">
     <link rel="stylesheet" href="./vendor/css/style.css">
-    <title>SMKN 4 TASIKMALAYA</title>
+    
 </head>
 
 <body>
@@ -56,7 +56,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="profil.php">Profil</a></li>
-                                <li><a class="dropdown-item" href="datapokok.php">Data Pokok</a></li>
+                                <li><a class="dropdown-item" href="identitas.php">Identitas Sekolah </a></li>
                                 <li><a class="dropdown-item" href="sejarah.php">Sejarah</a></li>
                                 <li><a class="dropdown-item" href="visi&mmisi.php">Visi & Misi</a></li>
                             </ul>

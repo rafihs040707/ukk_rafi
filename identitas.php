@@ -1,3 +1,7 @@
+<head>
+    <title>Identitas Sekolah - SMKN 4 Tasikmalaya</title>
+</head>
+
 <?php include "header.php" ?>
 
     <section> <!-- SECTION DATA POKOK -->

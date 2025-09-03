@@ -1,3 +1,7 @@
+<head>
+    <title>Visi & Misi - SMKN 4 Tasikmalaya</title>
+</head>
+
 <?php include "header.php" ?>
 
     <section> <!--SECTION VISI & MISI -->
