@@ -10,7 +10,7 @@
             <h3 class="text-primary d-inline-flex ms-1">Sekolah</h3>
         </div>
         <div class="container shadow-lg">
-            <img src="image/fotogerbang.jpg" class="w-75 h-50 mx-auto d-block my-3 pt-4">
+            <img src="image/fotogerbang.jpg" class="w-75 h-75 mx-auto d-block my-3 pt-4">
             <h4 class="fw-bold ms-3">Latar Belakang</h4>
             <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sejalan dengan Program Pemerintah dibidang
                 pendidikan Menengah Kejuruan pada saat itu yakni pemerataan akses ditambah pula dengan banyaknya

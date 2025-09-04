@@ -8,22 +8,22 @@
     <section> <!-- SECTION BERITA -->
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="mb-3 mt-3 text-center">Berita</h3>
+                <h3 class="my-5 text-center">Berita</h3>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="card shadow">
                             <div class="card-header">
-                                <img src="image/7.jpg" alt="" class="w-100 h-50">
+                                <img src="image/b1.jpg" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
-                                <h6 class="text-end">Senin, 27 Februari 2023</h6>
+                                <h6 class="text-end">Kamis, 2 Jan 2025</h6>
                                 <h3 class="text-center">SMKN 4 Tasikmalaya menerapkan aturan ketat terhadap kendaraan bermotor</h3>
                                 <?php
                                 $kondisi = true; // ubah jadi false untuk lihat hasil else
 
                                 if ($kondisi) {
                                     // Kalau kondisi benar, link ke radartasik.com
-                                    echo '<a href="https://radartasik.id/2025/01/02/smkn-4-tasikmalaya-terapkan-aturan-ketat-terhadap-kendaraan-bermotor/" target="_blank" class="btn shadow link-info text-black">Baca Selengkapnya</a>';
+                                    echo '<a href="https://radartasik.id/2025/01/02/smkn-4-tasikmalaya-terapkan-aturan-ketat-terhadap-kendaraan-bermotor/" target="_blank" class="btn shadow link-body-emphasis text-black">Baca Selengkapnya</a>';
                                 } else {
                                     // Kalau kondisi salah, bisa tampilkan link lain / disable
                                     echo '<a href="#" class="btn btn-secondary disabled">Link Tidak Tersedia</a>';
@@ -35,17 +35,17 @@
                     <div class="col-lg-6">
                         <div class="card shadow">
                             <div class="card-header">
-                                <img src="image/8.JPG" alt="" class="w-100 h-50">
+                                <img src="image/b2.JPG" alt="" class="w-100 h-50">
                             </div>
                             <div class="card-body">
-                                <h6 class="text-end">Senin, 27 Februari 2023</h6>
+                                <h6 class="text-end">Senin, 7 Okt 2024</h6>
                                 <h3 class="text-center">Tujuh Siswa SMKN 4 Tasikmalaya Raih Beasiswa Dari Yayasan Astra Honda Motor</h3>
                                 <?php
                                 $kondisi = true; // ubah jadi false untuk lihat hasil else
 
                                 if ($kondisi) {
                                     // Kalau kondisi benar, link ke radartasik.com
-                                    echo '<a href="https://radartasik.id/2024/10/07/tujuh-siswa-smkn-4-tasikmalaya-raih-beasiswa-dari-yayasan-astra-honda-motor/" target="_blank" class="btn shadow link-info text-black">Baca Selengkapnya</a>';
+                                    echo '<a href="https://radartasik.id/2024/10/07/tujuh-siswa-smkn-4-tasikmalaya-raih-beasiswa-dari-yayasan-astra-honda-motor/" target="_blank" class="btn btn-primary shadow link-dark text-white">Baca Selengkapnya</a>';
                                 } else {
                                     // Kalau kondisi salah, bisa tampilkan link lain / disable
                                     echo '<a href="#" class="btn btn-secondary disabled">Link Tidak Tersedia</a>';
@@ -62,7 +62,7 @@
     <section> <!-- SECTION GALERI -->
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="mb-3 mt-3 text-center">Galeri</h3>
+                <h3 class="my-5 text-center">Galeri</h3>
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="card border-0">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="text-center my-4">
-                        <a href="" class="btn btn-primary link-info text-white">Intip Lainnya</a>
+                        <a href="galeri.php" class="btn btn-primary link-info text-white">Intip Lainnya</a>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
     <section> <!-- SECTION STATISTIK -->
         <div class="row">
             <div class="col-lg-12">
-                <h3>Statistik</h3>
+                <h3 class="text-center my-5">Statistik</h3>
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="card text-center border-0 bg-primary text-white">
@@ -143,55 +143,73 @@
         </div>
     </section> <!-- TUTUP SECTION STATISTIK -->
 
-    <!-- SCRIPT COUNT UP -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            // --- Fungsi khusus Peserta Didik ---
-            function countPesertaDidik() {
-                const el = document.getElementById("pesertaDidik");
-                const target = +el.getAttribute("data-target");
-                let count = 0;
-                const step = 8; // loncat per 5
-                const delay = 10; // jeda tiap update (ms)
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center my-5">Program Keahlian</h3>
+                    <div class="row align-items-center justify-content-evenly">
+                        <div class="col-lg-4 py-3">
+                            <div class="card align-items-center text-center shadow">
+                                <div class="card-header">
+                                <h4>PPLG</h4>
+                                <img src="image/pplg.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                </div>
+                                <div class="card-body">
+                                    <h5>Pengembangan Perangkat Lunak dan Gim</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 py-3">
+                            <div class="card align-items-center text-center shadow">
+                                <div class="card-header">
+                                <h4>TJKT</h4>
+                                <img src="image/tkj.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                </div>
+                                <div class="card-body">
+                                    <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 py-3">
+                            <div class="card align-items-center text-center shadow">
+                                <div class="card-header">
+                                <h4>DKV</h4>
+                                <img src="image/dkv.png" class="w-100 h-100 img-fluid mx-auto d-block my-3">
+                                </div>
+                                <div class="card-body">
+                                    <h5>Desain Komunikasi Visual</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 py-3">
+                            <div class="card align-items-center text-center shadow">
+                                <div class="card-header">
+                                <h4>TOI</h4>
+                                <img src="image/toi.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                </div>
+                                <div class="card-body">
+                                    <h5>Teknik Otomasi Industri</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 py-3">
+                            <div class="card align-items-center text-center shadow">
+                                <div class="card-header">
+                                <h4>TBSM</h4>
+                                <img src="image/tbsm.png" class="w-50 h-25 img-fluid mx-auto d-block my-3">
+                                </div>
+                                <div class="card-body">
+                                    <h5>Teknik Bisnis dan Sepeda Motor</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-                const interval = setInterval(() => {
-                    count += step;
-                    if (count >= target) {
-                        el.innerText = target;
-                        clearInterval(interval);
-                    } else {
-                        el.innerText = count;
-                    }
-                }, delay);
-            }
-
-            // --- Fungsi umum untuk yang lain ---
-            function countGeneral() {
-                const counters = document.querySelectorAll(".count-up");
-                counters.forEach(counter => {
-                    const target = +counter.getAttribute("data-target");
-                    let count = 0;
-                    const duration = 2000; // 2 detik
-                    const stepTime = Math.max(Math.floor(duration / target), 20);
-
-                    const interval = setInterval(() => {
-                        count++;
-                        if (count >= target) {
-                            counter.innerText = target;
-                            clearInterval(interval);
-                        } else {
-                            counter.innerText = count;
-                        }
-                    }, stepTime);
-                });
-            }
-
-            // Jalankan
-            countPesertaDidik();
-            countGeneral();
-        });
-    </script>
-
-
-
-    <?php include "footer.php" ?>
+<script src="countup.js"></script>
+<?php include "footer.php" ?>

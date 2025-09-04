@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center">Identitas Sekolah Menengah Kejuruan Negeri 4 Tasikmalaya</h2>
+                    <h2 class="text-center my-4">Identitas Sekolah Menengah Kejuruan Negeri 4 Tasikmalaya</h2>
                     <div class="row mt-4">
                         <div class="col-lg-4">
                             <h4>a. Nama Sekolah</h4>

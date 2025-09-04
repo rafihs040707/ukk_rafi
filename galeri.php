@@ -10,7 +10,7 @@
             <div class="col-lg-12">
                 <h3 class="mb-3 mt-3 text-center">Galeri</h3>
                 <?php
-                $images = [
+                $galeri = [
                     "image/1.JPG",
                     "image/2.JPG",
                     "image/3.JPG",
@@ -22,7 +22,7 @@
                 ];
                 ?>
                 <div class="row">
-                    <?php foreach ($images as $img): ?>
+                    <?php foreach ($galeri as $img): ?>
                         <div class="col-lg-3 mb-4">
                             <div class="card border-0">
                                 <div class="card-body p-2">
